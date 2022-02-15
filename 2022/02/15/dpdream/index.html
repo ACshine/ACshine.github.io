@@ -73,6 +73,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml" />
 
@@ -81,17 +83,17 @@
 
 
 
-<meta name="description" content="蒙德里安的梦想 (超级详细，从0开始，思路自然，一遍就会！)  算法标签：状态压缩dp题目大意：求把 N×M的棋盘分割成若干个1×2 的的小长方形，有多少种方案。1：思路分析：  首先，注意到，我们直接考虑如何切割整个棋盘为若干个1x2的长方形是比较困难的，因此，我们可以把整个棋盘划分为若干个1x1的小格子，那么，问题就转化为了用1x2的小长方形去将整个棋盘填充满，总共有多少种方案。此外，注意到，">
+<meta name="description" content="蒙德里安的梦想 (超级详细，从0开始，思路自然，一遍就会！)">
 <meta property="og:type" content="article">
-<meta property="og:title" content="dpdream">
+<meta property="og:title" content="蒙德里安的梦想 题解">
 <meta property="og:url" content="https://acshine.github.io/2022/02/15/dpdream/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="蒙德里安的梦想 (超级详细，从0开始，思路自然，一遍就会！)  算法标签：状态压缩dp题目大意：求把 N×M的棋盘分割成若干个1×2 的的小长方形，有多少种方案。1：思路分析：  首先，注意到，我们直接考虑如何切割整个棋盘为若干个1x2的长方形是比较困难的，因此，我们可以把整个棋盘划分为若干个1x1的小格子，那么，问题就转化为了用1x2的小长方形去将整个棋盘填充满，总共有多少种方案。此外，注意到，">
+<meta property="og:description" content="蒙德里安的梦想 (超级详细，从0开始，思路自然，一遍就会！)">
 <meta property="og:locale">
 <meta property="og:image" content="https://cdn.acwing.com/media/article/image/2022/02/15/152778_4029f3468e-b8f1cbace1c9693c5ca86991af57db5.jpg">
 <meta property="og:image" content="https://cdn.acwing.com/media/article/image/2022/02/15/152778_23efd7448e-%E6%97%A0%E6%A0%87%E9%A2%98.png">
 <meta property="article:published_time" content="2022-02-15T13:31:54.000Z">
-<meta property="article:modified_time" content="2022-02-15T13:32:13.180Z">
+<meta property="article:modified_time" content="2022-02-15T13:38:16.430Z">
 <meta property="article:author" content="ACshine">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://cdn.acwing.com/media/article/image/2022/02/15/152778_4029f3468e-b8f1cbace1c9693c5ca86991af57db5.jpg">
@@ -130,7 +132,7 @@
 
 
 
-  <title>dpdream | Hexo</title>
+  <title>蒙德里安的梦想 题解 | Hexo</title>
   
 
 
@@ -338,7 +340,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">dpdream</h1>
+          <h1 class="post-title" itemprop="name headline">蒙德里安的梦想 题解</h1>
         
 
         <div class="post-meta">
@@ -405,6 +407,8 @@
 
       
         <h1 id="蒙德里安的梦想-超级详细，从0开始，思路自然，一遍就会！"><a href="#蒙德里安的梦想-超级详细，从0开始，思路自然，一遍就会！" class="headerlink" title="蒙德里安的梦想 (超级详细，从0开始，思路自然，一遍就会！)"></a>蒙德里安的梦想 (超级详细，从0开始，思路自然，一遍就会！)</h1><p><img src="https://cdn.acwing.com/media/article/image/2022/02/15/152778_4029f3468e-b8f1cbace1c9693c5ca86991af57db5.jpg" alt="b8f1cbace1c9693c5ca86991af57db5.jpg"> </p>
+<span id="more"></span>
+
 <h3 id="算法标签：状态压缩dp"><a href="#算法标签：状态压缩dp" class="headerlink" title="算法标签：状态压缩dp"></a>算法标签：状态压缩dp</h3><h3 id="题目大意：求把-N×M的棋盘分割成若干个1×2-的的小长方形，有多少种方案。"><a href="#题目大意：求把-N×M的棋盘分割成若干个1×2-的的小长方形，有多少种方案。" class="headerlink" title="题目大意：求把 N×M的棋盘分割成若干个1×2 的的小长方形，有多少种方案。"></a>题目大意：求把 N×M的棋盘分割成若干个1×2 的的小长方形，有多少种方案。</h3><h4 id="1：思路分析："><a href="#1：思路分析：" class="headerlink" title="1：思路分析："></a>1：思路分析：</h4><p>  首先，注意到，我们直接考虑如何切割整个棋盘为若干个1x2的长方形是比较困难的，因此，我们可以把整个棋盘划分为若干个1x1的小格子，那么，问题就转化为了用1x2的小长方形去将整个棋盘填充满，总共有多少种方案。此外，注意到，当我们将所有横向的小长方形都已经摆放(填充)完成后，所有纵向的小长方形的摆放方式也就唯一确定了，那么，总的方案数就等于摆完所有横向长方形的方案数。所以，我们只用考虑如何枚举横向长方形的摆放即可</p>
 <h4 id="模型："><a href="#模型：" class="headerlink" title="模型："></a>模型：</h4><p>这个问题属于状态压缩dp问题的第一大类：基于连通性的dp，也可以叫做棋盘式dp。<strong>我们首先考虑如何定义(设计)状态</strong>，<strong>也就是如何进行状态表示。</strong> 我们按列来枚举横向小长方形的摆放情况。f为dp数组。若当前我们需要摆放的列是第i 列，那么第i列在摆放的时候只和第i-1列有关(因为只有i-1列的小长方形可能伸到第i列，影响第i 列的摆放)。因此，我们设f[i][j]表示：前i-1列已经摆放完毕(不能再改了)，当前要对第i列进行横向小长方形的摆放，且前一列伸出一个小方格是j 的情况下的方案数。如下图所示：</p>
 <p><img src="https://cdn.acwing.com/media/article/image/2022/02/15/152778_23efd7448e-%E6%97%A0%E6%A0%87%E9%A2%98.png" alt="无标题.png"> </p>
@@ -781,7 +785,7 @@
         var disqus_config = function () {
           this.page.url = 'https://acshine.github.io/2022/02/15/dpdream/';
           this.page.identifier = '2022/02/15/dpdream/';
-          this.page.title = 'dpdream';
+          this.page.title = '蒙德里安的梦想 题解';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://disqus_vgH1G2x6Uf.disqus.com/embed.js';
