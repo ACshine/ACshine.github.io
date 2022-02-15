@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://acshine.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://acshine.github.io/"/>
   <updated>2022-02-14T15:16:15.362Z</updated>
-  <id>http://example.com/</id>
+  <id>https://acshine.github.io/</id>
   
   <author>
     <name>ACshine</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>shine-first-blog</title>
-    <link href="http://example.com/2022/02/14/shine-first-blog/"/>
-    <id>http://example.com/2022/02/14/shine-first-blog/</id>
+    <link href="https://acshine.github.io/2022/02/14/shine-first-blog/"/>
+    <id>https://acshine.github.io/2022/02/14/shine-first-blog/</id>
     <published>2022-02-14T12:46:37.000Z</published>
     <updated>2022-02-14T15:16:15.362Z</updated>
     
@@ -35,8 +35,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/02/14/hello-world/"/>
-    <id>http://example.com/2022/02/14/hello-world/</id>
+    <link href="https://acshine.github.io/2022/02/14/hello-world/"/>
+    <id>https://acshine.github.io/2022/02/14/hello-world/</id>
     <published>2022-02-14T12:36:33.325Z</published>
     <updated>2022-02-14T12:36:33.325Z</updated>
     
