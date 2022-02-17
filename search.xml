@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/02/14/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>蒙德里安的梦想 题解</title>
     <url>/2022/02/15/dpdream/</url>
     <content><![CDATA[<h1 id="蒙德里安的梦想-超级详细，从0开始，思路自然，一遍就会！"><a href="#蒙德里安的梦想-超级详细，从0开始，思路自然，一遍就会！" class="headerlink" title="蒙德里安的梦想 (超级详细，从0开始，思路自然，一遍就会！)"></a>蒙德里安的梦想 (超级详细，从0开始，思路自然，一遍就会！)</h1><p><img src="https://cdn.acwing.com/media/article/image/2022/02/15/152778_4029f3468e-b8f1cbace1c9693c5ca86991af57db5.jpg" alt="b8f1cbace1c9693c5ca86991af57db5.jpg"> </p>
@@ -44,6 +26,24 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/02/14/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>shine-first-blog</title>
     <url>/2022/02/14/shine-first-blog/</url>
     <content><![CDATA[<h1 id="第一条blog"><a href="#第一条blog" class="headerlink" title="第一条blog"></a><strong>第一条blog</strong></h1><p>  大家好，我是 ACshine ,这是我的第一条blog,今后，我将会更新一些算法题的题解，以及对一些自己学过知识的总结与反思。</p>
@@ -56,7 +56,9 @@
   <entry>
     <title>奶牛选美题解</title>
     <url>/2022/02/17/%E5%A5%B6%E7%89%9B%E9%80%89%E7%BE%8E%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="奶牛选美-双端队列解法及代码"><a href="#奶牛选美-双端队列解法及代码" class="headerlink" title="奶牛选美(双端队列解法及代码)"></a>奶牛选美(双端队列解法及代码)</h1><h3 id="算法标签：双端队列bfs"><a href="#算法标签：双端队列bfs" class="headerlink" title="算法标签：双端队列bfs"></a>算法标签：双端队列bfs</h3><h3 id="题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’-’变为’X’。"><a href="#题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’-’变为’X’。" class="headerlink" title="题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’.’变为’X’。"></a>题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’.’变为’X’。</h3><h4 id="1：思路分析：-（后面有具体解释"><a href="#1：思路分析：-（后面有具体解释" class="headerlink" title="1：思路分析： （后面有具体解释)"></a>1：思路分析： （后面有具体解释)</h4><p>  首先，我们可以任取一个值为’X’的点作为bfs的起点(，然后，在bfs的过程中，我们建立双端队列q，首先把距离数组初始化为充分大的常数INF,然后把起点的距离设为0，并把起点加入队列，当队列不空时，我们取出队头元素，如果队头元素对应的值为’X’，且其到起点的距离不为0，那么直接返回其距离即可，这就是最终答案。否则，通过st数组判断这个点到起点的最短距离是否已经算过了，如果没算过，那么和Dijkstra算法类似，我们将其对应的st数组设置为1，代表它的最短距离已经确定，然后用这个点来更新它周围四个点的距离。</p>
+    <content><![CDATA[<h1 id="奶牛选美-双端队列解法及代码"><a href="#奶牛选美-双端队列解法及代码" class="headerlink" title="奶牛选美(双端队列解法及代码)"></a>奶牛选美(双端队列解法及代码)</h1><h3 id="算法标签：双端队列bfs"><a href="#算法标签：双端队列bfs" class="headerlink" title="算法标签：双端队列bfs"></a>算法标签：双端队列bfs</h3><h3 id="题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’-’变为’X’。"><a href="#题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’-’变为’X’。" class="headerlink" title="题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’.’变为’X’。"></a>题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’.’变为’X’。</h3><span id="more"></span>
+
+<h4 id="1：思路分析：-（后面有具体解释"><a href="#1：思路分析：-（后面有具体解释" class="headerlink" title="1：思路分析： （后面有具体解释)"></a>1：思路分析： （后面有具体解释)</h4><p>  首先，我们可以任取一个值为’X’的点作为bfs的起点(，然后，在bfs的过程中，我们建立双端队列q，首先把距离数组初始化为充分大的常数INF,然后把起点的距离设为0，并把起点加入队列，当队列不空时，我们取出队头元素，如果队头元素对应的值为’X’，且其到起点的距离不为0，那么直接返回其距离即可，这就是最终答案。否则，通过st数组判断这个点到起点的最短距离是否已经算过了，如果没算过，那么和Dijkstra算法类似，我们将其对应的st数组设置为1，代表它的最短距离已经确定，然后用这个点来更新它周围四个点的距离。</p>
 <p><strong>如果周围的点是’.’那么权重w为1，否则为0</strong>    如果可以更新，那么将新扩展到的点的距离更新。<strong>并且，如果w为0，那么将新扩展到的点加入队头，否则，加入队尾</strong></p>
 <h4 id="模型及具体解释"><a href="#模型及具体解释" class="headerlink" title="模型及具体解释"></a>模型及具体解释</h4><p>这道题目的模型属于双端队列模型。之所以将权重为0的点加入队头，而将权重为1的点加入队尾的原因是这样操作之后，队列中元素距离起点的距离仍然是单调递增的，所以，这样求出来的距离才是最短距离(与堆优化的Dijkstra类似)。</p>
 <p>此外，之所以可以随便选择一个’X’作为起点，也是由于我们将’X’的权重设为了0，所以不会影响最终的答案。其实，这道题就等价于求从起点到终点的最小步数，这不过，题目中的步数实际上是指将’X’变为’.’的操作。而当我们扩展到另一个’X’ 且其距离不为0时，这个X肯定是和起点的‘X’不属于同一连通块(否则其最短距离就应该是0)，而通过bfs，求出的是最短距离，自然，我们此时返回的就是所求的答案了。</p>
