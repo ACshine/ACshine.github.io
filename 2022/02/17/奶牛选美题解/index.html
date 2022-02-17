@@ -73,6 +73,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml" />
 
@@ -81,13 +83,15 @@
 
 
 
-<meta name="description" content="那些你很冒险的梦">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://acshine.github.io/archives/2022/index.html">
+<meta name="description" content="奶牛选美(双端队列解法及代码)算法标签：双端队列bfs题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’.’变为’X’。1：思路分析： （后面有具体解释)  首先，我们可以任取一个值为’X’的点作为bfs的起点(，然后，在bfs的过程中，我们建立双端队列q，首先把距离数组初始化为充分大的常数INF,然后把起点的距离设为0，并把起点加入队列，当队列不空时，我们取出队头元素，如果队">
+<meta property="og:type" content="article">
+<meta property="og:title" content="奶牛选美题解">
+<meta property="og:url" content="https://acshine.github.io/2022/02/17/%E5%A5%B6%E7%89%9B%E9%80%89%E7%BE%8E%E9%A2%98%E8%A7%A3/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="那些你很冒险的梦">
+<meta property="og:description" content="奶牛选美(双端队列解法及代码)算法标签：双端队列bfs题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’.’变为’X’。1：思路分析： （后面有具体解释)  首先，我们可以任取一个值为’X’的点作为bfs的起点(，然后，在bfs的过程中，我们建立双端队列q，首先把距离数组初始化为充分大的常数INF,然后把起点的距离设为0，并把起点加入队列，当队列不空时，我们取出队头元素，如果队">
 <meta property="og:locale">
+<meta property="article:published_time" content="2022-02-17T04:07:13.000Z">
+<meta property="article:modified_time" content="2022-02-17T04:07:29.405Z">
 <meta property="article:author" content="ACshine">
 <meta name="twitter:card" content="summary">
 
@@ -119,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="https://acshine.github.io/archives/2022/"/>
+  <link rel="canonical" href="https://acshine.github.io/2022/02/17/奶牛选美题解/"/>
 
 
 
 
 
-  <title>归档 | Hexo</title>
+  <title>奶牛选美题解 | Hexo</title>
   
 
 
@@ -144,7 +148,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -302,185 +306,165 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://acshine.github.io/2022/02/17/%E5%A5%B6%E7%89%9B%E9%80%89%E7%BE%8E%E9%A2%98%E8%A7%A3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">奶牛选美题解</h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-02-17T12:07:13+08:00">
+                2022-02-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 4 篇日志。 继续努力。
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2022">2022</h1>
-          </div>
-        
-        
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2022/02/17/%E5%A5%B6%E7%89%9B%E9%80%89%E7%BE%8E%E9%A2%98%E8%A7%A3/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2022/02/17/奶牛选美题解/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
 
-        
+          
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i> 本文总阅读量
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2022/02/17/%E5%A5%B6%E7%89%9B%E9%80%89%E7%BE%8E%E9%A2%98%E8%A7%A3/" itemprop="url">
-              
-                <span itemprop="name">奶牛选美题解</span>
-              
-            </a>
-        
-      </h2>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2022-02-17T12:07:13+08:00"
-              content="2022-02-17" >
-          02-17
-        </time>
-      </div>
+          
 
-    </header>
-  </article>
+        </div>
+      </header>
+    
 
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2022/02/15/dpdream/" itemprop="url">
-              
-                <span itemprop="name">蒙德里安的梦想 题解</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2022-02-15T21:31:54+08:00"
-              content="2022-02-15" >
-          02-15
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2022/02/14/shine-first-blog/" itemprop="url">
-              
-                <span itemprop="name">shine-first-blog</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2022-02-14T20:46:37+08:00"
-              content="2022-02-14" >
-          02-14
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2022/02/14/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2022-02-14T20:36:33+08:00"
-              content="2022-02-14" >
-          02-14
-        </time>
-      </div>
-
-    </header>
-  </article>
+      
+        <h1 id="奶牛选美-双端队列解法及代码"><a href="#奶牛选美-双端队列解法及代码" class="headerlink" title="奶牛选美(双端队列解法及代码)"></a>奶牛选美(双端队列解法及代码)</h1><h3 id="算法标签：双端队列bfs"><a href="#算法标签：双端队列bfs" class="headerlink" title="算法标签：双端队列bfs"></a>算法标签：双端队列bfs</h3><h3 id="题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’-’变为’X’。"><a href="#题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’-’变为’X’。" class="headerlink" title="题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’.’变为’X’。"></a>题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’.’变为’X’。</h3><h4 id="1：思路分析：-（后面有具体解释"><a href="#1：思路分析：-（后面有具体解释" class="headerlink" title="1：思路分析： （后面有具体解释)"></a>1：思路分析： （后面有具体解释)</h4><p>  首先，我们可以任取一个值为’X’的点作为bfs的起点(，然后，在bfs的过程中，我们建立双端队列q，首先把距离数组初始化为充分大的常数INF,然后把起点的距离设为0，并把起点加入队列，当队列不空时，我们取出队头元素，如果队头元素对应的值为’X’，且其到起点的距离不为0，那么直接返回其距离即可，这就是最终答案。否则，通过st数组判断这个点到起点的最短距离是否已经算过了，如果没算过，那么和Dijkstra算法类似，我们将其对应的st数组设置为1，代表它的最短距离已经确定，然后用这个点来更新它周围四个点的距离。</p>
+<p><strong>如果周围的点是’.’那么权重w为1，否则为0</strong>    如果可以更新，那么将新扩展到的点的距离更新。<strong>并且，如果w为0，那么将新扩展到的点加入队头，否则，加入队尾</strong></p>
+<h4 id="模型及具体解释"><a href="#模型及具体解释" class="headerlink" title="模型及具体解释"></a>模型及具体解释</h4><p>这道题目的模型属于双端队列模型。之所以将权重为0的点加入队头，而将权重为1的点加入队尾的原因是这样操作之后，队列中元素距离起点的距离仍然是单调递增的，所以，这样求出来的距离才是最短距离(与堆优化的Dijkstra类似)。</p>
+<p>此外，之所以可以随便选择一个’X’作为起点，也是由于我们将’X’的权重设为了0，所以不会影响最终的答案。其实，这道题就等价于求从起点到终点的最小步数，这不过，题目中的步数实际上是指将’X’变为’.’的操作。而当我们扩展到另一个’X’ 且其距离不为0时，这个X肯定是和起点的‘X’不属于同一连通块(否则其最短距离就应该是0)，而通过bfs，求出的是最短距离，自然，我们此时返回的就是所求的答案了。</p>
+<h4 id="c-代码"><a href="#c-代码" class="headerlink" title="c++代码"></a><em>c++代码</em></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">#include&lt;deque&gt;</span><br><span class="line">#include&lt;cstring&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">const int N=55;</span><br><span class="line">typedef pair&lt;int,int&gt;PII; </span><br><span class="line">int n,m,st[N][N],d[N][N];</span><br><span class="line">char g[N][N];</span><br><span class="line">int dx[4]=&#123;-1,0,1,0&#125;,dy[4]=&#123;0,1,0,-1&#125;;</span><br><span class="line">int bfs(int sx,int sy)</span><br><span class="line">&#123;</span><br><span class="line">    deque&lt;PII&gt;q;</span><br><span class="line">    memset(d,0x3f,sizeof d);</span><br><span class="line">    q.push_back(&#123;sx,sy&#125;);</span><br><span class="line">    d[sx][sy]=0;</span><br><span class="line">    while(q.size())</span><br><span class="line">    &#123;</span><br><span class="line">        auto t=q.front();</span><br><span class="line">        q.pop_front();</span><br><span class="line">        int a=t.first,b=t.second;</span><br><span class="line">        if(g[a][b]==&#x27;X&#x27;&amp;&amp;d[a][b]) return d[a][b];</span><br><span class="line">        if(st[a][b]) continue;</span><br><span class="line">        st[a][b]=1;</span><br><span class="line">        for(int i=0;i&lt;4;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            int nx=a+dx[i],ny=b+dy[i];</span><br><span class="line">            if(nx&lt;0||nx&gt;=n||ny&lt;0||ny&gt;=m) continue;</span><br><span class="line">            int w=g[nx][ny]==&#x27;.&#x27;;</span><br><span class="line">            if(d[nx][ny]&gt;d[a][b]+w)</span><br><span class="line">            &#123;</span><br><span class="line">                d[nx][ny]=d[a][b]+w;</span><br><span class="line">                if(!w) q.push_front(&#123;nx,ny&#125;);</span><br><span class="line">                else q.push_back(&#123;nx,ny&#125;);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return 66666;</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123; </span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    int t1,t2;</span><br><span class="line">    for(int i=0;i&lt;n;i++)  cin&gt;&gt;g[i];</span><br><span class="line">    for(int i=0;i&lt;n;i++)</span><br><span class="line">        for(int j=0;j&lt;m;j++)</span><br><span class="line">            &#123;</span><br><span class="line">                if(g[i][j]==&#x27;X&#x27;)</span><br><span class="line">                &#123;</span><br><span class="line">                    t1=i,t2=j;</span><br><span class="line">                    break;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            cout&lt;&lt;bfs(t1,t2);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
+<p>##时间复杂度分析：通过双端队列的优化可以达到线性的时间复杂度。</p>
+<p>有不对的地方欢迎指正，有不懂的地方欢迎大家提问！<br>题解的博客地址:<a href="https://acshine.github.io/">https://acshine.github.io/</a></p>
 
       
-
     </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2022/02/15/dpdream/" rel="next" title="蒙德里安的梦想 题解">
+                <i class="fa fa-chevron-left"></i> 蒙德里安的梦想 题解
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -488,6 +472,20 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -508,8 +506,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -562,6 +569,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A5%B6%E7%89%9B%E9%80%89%E7%BE%8E-%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97%E8%A7%A3%E6%B3%95%E5%8F%8A%E4%BB%A3%E7%A0%81"><span class="nav-number">1.</span> <span class="nav-text">奶牛选美(双端队列解法及代码)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AE%97%E6%B3%95%E6%A0%87%E7%AD%BE%EF%BC%9A%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97bfs"><span class="nav-number">1.0.1.</span> <span class="nav-text">算法标签：双端队列bfs</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE%E5%A4%A7%E6%84%8F%EF%BC%9A%E6%B1%82%E4%B8%BA%E4%BA%86%E5%B0%86%E4%B8%A4%E4%B8%AA%E7%94%B1%E2%80%99X%E2%80%99%E7%BB%84%E6%88%90%E7%9A%84%E8%BF%9E%E9%80%9A%E5%9D%97%E8%BF%9E%E9%80%9A%E8%B5%B7%E6%9D%A5%EF%BC%8C%E6%9C%80%E5%B0%91%E9%9C%80%E8%A6%81%E5%B0%86%E5%A4%9A%E5%B0%91%E4%B8%AA%E2%80%99-%E2%80%99%E5%8F%98%E4%B8%BA%E2%80%99X%E2%80%99%E3%80%82"><span class="nav-number">1.0.2.</span> <span class="nav-text">题目大意：求为了将两个由’X’组成的连通块连通起来，最少需要将多少个’.’变为’X’。</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1%EF%BC%9A%E6%80%9D%E8%B7%AF%E5%88%86%E6%9E%90%EF%BC%9A-%EF%BC%88%E5%90%8E%E9%9D%A2%E6%9C%89%E5%85%B7%E4%BD%93%E8%A7%A3%E9%87%8A"><span class="nav-number">1.0.2.1.</span> <span class="nav-text">1：思路分析： （后面有具体解释)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%85%B7%E4%BD%93%E8%A7%A3%E9%87%8A"><span class="nav-number">1.0.2.2.</span> <span class="nav-text">模型及具体解释</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#c-%E4%BB%A3%E7%A0%81"><span class="nav-number">1.0.2.3.</span> <span class="nav-text">c++代码</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -722,6 +745,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -739,6 +766,18 @@
       <script id="dsq-count-scr" src="https://disqus_vgH1G2x6Uf.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://acshine.github.io/2022/02/17/%E5%A5%B6%E7%89%9B%E9%80%89%E7%BE%8E%E9%A2%98%E8%A7%A3/';
+          this.page.identifier = '2022/02/17/奶牛选美题解/';
+          this.page.title = '奶牛选美题解';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://disqus_vgH1G2x6Uf.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
